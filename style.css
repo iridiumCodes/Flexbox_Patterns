@@ -68,10 +68,15 @@ body {
 
 .task-4 .option-1 .container {
   display: flex;
+  justify-content: space-between; /*for two items to push the last one to the end*/
 }
 
 .task-4 .option-2 .container {
   display: flex;
+}
+.task-4 .option-2 .space {
+  /* added a "space" div to give it the grow property */
+  flex-grow: 1;
 }
 
 .task-4 .option-3 .container {
@@ -79,6 +84,7 @@ body {
 }
 
 .task-4 .option-3 .item:first-child {
+  flex-grow: 1;
 }
 
 /* TASK 5 */
