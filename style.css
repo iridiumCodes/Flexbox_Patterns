@@ -46,6 +46,7 @@ body {
 /* TASK 1 */
 
 .task-1 .container {
+  display: flex;
 }
 
 /* TASK 2 */
