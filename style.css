@@ -113,13 +113,16 @@ body {
 
 .task-6 .container {
   display: flex;
+  flex-wrap: wrap; /* makes it responsive */
 }
 
 .task-6 .item {
+  flex-basis: 50%;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 720px) {
   .task-6 .item {
+    flex-basis: 25%;
   }
 }
 
