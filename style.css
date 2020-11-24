@@ -129,12 +129,15 @@ body {
 /* TASK 7 */
 
 .task-7 .container {
+  display: flex;
 }
 
 .task-7 .item-1 {
+  order: 3;
 }
 
 .task-7 .item-3 {
+  order: 4;
 }
 
 /* TASK 8 */
@@ -144,4 +147,5 @@ body {
 }
 
 .task-8 .item-3 {
+  align-self: center;
 }
