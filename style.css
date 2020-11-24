@@ -61,6 +61,7 @@ body {
 
 .task-3 .container {
   display: flex;
+  justify-content: space-between;
 }
 
 /* TASK 4 */
